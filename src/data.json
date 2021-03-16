@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": "shoe1",
+            "image": "/shoes/1.jpg",
+            "title": "Model 1",
+            "description": "It's a model 1",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe2",
+            "image": "/shoes/2.jpg",
+            "title": "Model 2",
+            "description": "It's a model 2",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe3",
+            "image": "/shoes/3.jpg",
+            "title": "Model 3",
+            "description": "It's a model 3",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe4",
+            "image": "/shoes/4.jpg",
+            "title": "Model 4",
+            "description": "It's a model 4",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe5",
+            "image": "/shoes/5.jpg",
+            "title": "Model 5",
+            "description": "It's a model 5",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe6",
+            "image": "/shoes/6.jpg",
+            "title": "Model 1",
+            "description": "It's a model 6",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        },
+        {
+            "id": "shoe7",
+            "image": "/shoes/7.jpg",
+            "title": "Model 7",
+            "description": "It's a model 7",
+            "price": 50,
+            "availableSizes": ["S", "M", "L"]
+        }
+    ]
+}
