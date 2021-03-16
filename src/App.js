@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Products from './Components/Products';
+import data from './data.json';
 
 function App() {
+  const [items, setItems] = useState({
+    products: data.products,
+    size: '',
+    sort: '',
+  });
+
   return (
     <div className="container">
       <header>
@@ -8,7 +16,12 @@ function App() {
           E-commerce
         </a>
       </header>
-      <main>product list</main>
+      <main>
+        <div className="products">
+          <Products products={items.products} />
+        </div>
+        <div className="cart">Cart items</div>
+      </main>
       <footer>Footer</footer>
     </div>
   );

@@ -17,6 +17,8 @@ header {
 
 main {
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 footer {
@@ -29,6 +31,11 @@ footer {
   justify-content: center;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 a {
   text-decoration: none;
   transition: 0.15s ease-in-out;
@@ -36,6 +43,10 @@ a {
 
 a:hover {
   color: orange;
+}
+
+ul {
+  list-style: none;
 }
 
 .logo {
@@ -46,4 +57,51 @@ a:hover {
 .container {
   width: 95%;
   margin: auto;
+}
+
+/* products */
+.products {
+  width: 85%;
+}
+
+.products-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.products-list li {
+  width: 30rem;
+  height: 40rem;
+  margin: 2rem 2rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product img {
+  margin: 0 auto;
+  width: 25rem;
+  height: 30rem;
+} 
+
+.product a {
+  color: #000000;
+}
+
+.product a:hover {
+  color: orange;
+}
+
+.product a p {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.cart {
+  width: 15%;
 }
