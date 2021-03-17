@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -17,8 +20,6 @@ header {
 
 main {
   width: 100%;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 footer {
@@ -55,14 +56,23 @@ ul {
 }
 
 .container {
+  width: 100%;
+}
+
+.container-xl {
   width: 95%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /* products */
 
 .products {
-  width: 85%;
+  width: 80%;
 }
 
 .products-list {
@@ -72,9 +82,14 @@ ul {
 }
 
 .products-list li {
-  width: 30rem;
-  height: 40rem;
-  margin: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 2rem 1rem;
+  box-shadow: 0px 0px 5px rgb(186, 186, 186);
+  padding: 0.9rem;
+  border-radius: 3px;
 }
 
 .product {
@@ -85,9 +100,10 @@ ul {
 }
 
 .product img {
-  margin: 0 auto;
-  width: 25rem;
   height: 30rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 10px #bcbcbc;
+  object-fit: cover;
 } 
 
 .product a {
@@ -100,7 +116,35 @@ ul {
 
 .product a p {
   font-size: 2.5rem;
-  margin-top: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+button {
+  border: unset;
+  background: #40916c;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  transition: 0.15s ease-in-out;
+  font-size: 1.6rem;
+}
+
+button:hover {
+  color: orange;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-price_value {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: #f2f2f2;
+  border-radius: 5rem;
 }
 
 /* filter */
@@ -110,6 +154,7 @@ ul {
   border-bottom: 0.1rem #d3d3d3 solid;
   padding: 2rem 2rem;
   justify-content: space-between;
+  align-items: center;
 }
 
 .count-products {
@@ -120,10 +165,40 @@ ul {
   font-size: 1.8rem;
 }
 
+select {
+  outline: unset;
+  border: unset;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+} 
+
+option {
+  background-color: #f2f2f2;
+  font-size: 1.6rem;
+}
+
 .filter-size {
   font-size: 1.8rem;
 }
 
 .cart {
-  width: 15%;
+  width: 20%;
+}
+
+/* tablet/mobile */
+
+@media screen and (min-width: 768px) {
+  .products-list li {
+    display: flex;
+    width: 46%;
+    margin: 2rem 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .products-list li {
+    display: flex;
+    width: 30%;
+    margin: 2rem 1rem;
+  }
 }

@@ -48,22 +48,26 @@ function App() {
   return (
     <div className="container">
       <header>
-        <a className="logo" href="/">
-          E-commerce
-        </a>
+        <div className="container-xl">
+          <a className="logo" href="/">
+            E-commerce
+          </a>
+        </div>
       </header>
       <main>
-        <div className="products">
-          <Filter
-            count={items.products.length}
-            size={items.size}
-            sort={items.sort}
-            filterProducts={(e) => filterProducts(e)}
-            sortProducts={(e) => sortProducts(e)}
-          />
-          <Products products={items.products} />
+        <div className="container-xl d-flex">
+          <div className="products">
+            <Filter
+              count={items.products.length}
+              size={items.size}
+              sort={items.sort}
+              filterProducts={(e) => filterProducts(e)}
+              sortProducts={(e) => sortProducts(e)}
+            />
+            <Products products={items.products} />
+          </div>
+          <div className="cart">Cart items</div>
         </div>
-        <div className="cart">Cart items</div>
       </main>
       <footer>Footer</footer>
     </div>
