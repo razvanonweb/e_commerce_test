@@ -60,6 +60,7 @@ ul {
 }
 
 /* products */
+
 .products {
   width: 85%;
 }
@@ -100,6 +101,27 @@ ul {
 .product a p {
   font-size: 2.5rem;
   margin-top: 1rem;
+}
+
+/* filter */
+
+.filter {
+  display: flex;
+  border-bottom: 0.1rem #d3d3d3 solid;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+}
+
+.count-products {
+  font-size: 1.8rem;
+}
+
+.filter-sort {
+  font-size: 1.8rem;
+}
+
+.filter-size {
+  font-size: 1.8rem;
 }
 
 .cart {

@@ -5,15 +5,15 @@
             "image": "/shoes/1.jpg",
             "title": "Model 1",
             "description": "It's a model 1",
-            "price": 50,
-            "availableSizes": ["S", "M", "L"]
+            "price": 25,
+            "availableSizes": ["S", "M", "XL"]
         },
         {
             "id": "shoe2",
             "image": "/shoes/2.jpg",
             "title": "Model 2",
             "description": "It's a model 2",
-            "price": 50,
+            "price": 35,
             "availableSizes": ["S", "M", "L"]
         },
         {
@@ -21,8 +21,8 @@
             "image": "/shoes/3.jpg",
             "title": "Model 3",
             "description": "It's a model 3",
-            "price": 50,
-            "availableSizes": ["S", "M", "L"]
+            "price": 45,
+            "availableSizes": ["XXL"]
         },
         {
             "id": "shoe4",
@@ -30,31 +30,31 @@
             "title": "Model 4",
             "description": "It's a model 4",
             "price": 50,
-            "availableSizes": ["S", "M", "L"]
+            "availableSizes": ["M"]
         },
         {
             "id": "shoe5",
             "image": "/shoes/5.jpg",
             "title": "Model 5",
             "description": "It's a model 5",
-            "price": 50,
+            "price": 15,
             "availableSizes": ["S", "M", "L"]
         },
         {
             "id": "shoe6",
             "image": "/shoes/6.jpg",
-            "title": "Model 1",
+            "title": "Model 6",
             "description": "It's a model 6",
-            "price": 50,
-            "availableSizes": ["S", "M", "L"]
+            "price": 100,
+            "availableSizes": ["S"]
         },
         {
             "id": "shoe7",
             "image": "/shoes/7.jpg",
             "title": "Model 7",
             "description": "It's a model 7",
-            "price": 50,
-            "availableSizes": ["S", "M", "L"]
+            "price": 20,
+            "availableSizes": ["S", "L"]
         }
     ]
 }
